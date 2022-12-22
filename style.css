@@ -1,0 +1,38 @@
+h1{
+    background-color: blue;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #212529;
+    height: 100px; 
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0; 
+    }
+    
+footer div {
+    display: flex; 
+    }
+
+footer div svg {
+    margin: 0 15px;
+    color: rgba(255, 255, 255, 0.55);
+    transition: box-shadow 0.3seg ease; 
+    }
+
+footer div svg:hover {
+    color: rgba(255, 255, 255, 0.75); 
+    }
